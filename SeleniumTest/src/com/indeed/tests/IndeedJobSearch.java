@@ -36,6 +36,7 @@ public class IndeedJobSearch {
 
 		System.out.println(dr.getTitle());
 		System.out.println(dr.findElement(By.id("searchCount")).getText());
+		System.out.println("End of tutorial");
 	}
 
 }
